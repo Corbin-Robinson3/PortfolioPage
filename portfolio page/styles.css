@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 1px 1px black;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    line-height: 1.6;
+    background-color: #645e5e;
+    color: #fff;
+}
+header {
+    background-color: #484747;
+    color: #fff;
+    padding: 1rem 0;
+}
+.center {
+    text-align: center;
+}
+a{
+    display: inline;
+    color: #5092ee;
+    text-shadow: 1px 1px 2px black;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.contact {
+    padding: 2rem;
+    background-color: #484747;
+    color: #fff;
+}
+.contact input, .contact textarea {
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+button {
+    align-self: center;
+    background-color: #0047AB;
+    color: #fff;
+    text-shadow: 2px 2px 2px black;
+}
